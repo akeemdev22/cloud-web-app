@@ -70,7 +70,7 @@ data "aws_iam_policy_document" "github_trust" {
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:akeemdev22/cloud-web-app:*"]
+      values   = ["repo:akeemdev22@273994400/cloud-web-app@1473686435:*"]
     }
   }
 }
